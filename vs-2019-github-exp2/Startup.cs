@@ -51,7 +51,7 @@ namespace vs_2019_github_exp2
             app.UseEndpoints(endpoints =>
             {
                 //endpoints.MapRazorPages();
-                endpoints.MapGet("/", async context => { await context.Response.WriteAsync("Hello world"); });
+                endpoints.MapGet("/", async context => { await context.Response.WriteAsync("Hello first changing!"); });
             });
         }
     }
